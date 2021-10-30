@@ -1,0 +1,93 @@
+html{
+    font: 16px/1.4 Georgia, serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url('./img/06.png') repeat-x bottom center;
+    padding-bottom: 6rem;
+    background-size: 50vw;
+    min-height: 100vw;
+    position: relative;
+}
+
+@media only screen and (min-width: 1200px){
+    html{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    html{
+        font-size: 20px;
+    }
+}
+
+
+h1{
+    font: 2rem 'Pacifico', cursive;
+    margin: 0 0 1.8rem;
+}
+
+p{
+    margin: 0 0 0.5rem;
+}
+
+.page{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 2rem 3rem;
+    box-sizing: border-box;
+}
+
+.section{
+    display: flex;
+    align-items: center;
+}
+.section-col{
+    position: relative;
+    width: 50%;
+}
+
+.section-col img{
+    width: 100%;
+}
+
+.section-col-40{
+    width: 40%;
+}
+
+.section-col-60{
+    width: 60%;
+}
+
+@media only screen and (max-width: 750px){
+    .section{
+        display: block;
+    }
+
+    .section-col,
+    .section-col-40,
+    .section-col-60 {
+        width: 100%;
+    }
+}
+
+
+.img-abs{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bubbles{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: url('./img/07_1.png') repeat-x bottom center;
+    background-size: 50vw;
+    height: 12rem;
+}
+
